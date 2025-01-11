@@ -1,0 +1,14 @@
+C:\DEV\AppBlog\AppBlog.Domain\bin\Debug\net8.0\AppBlog.Domain.deps.json
+C:\DEV\AppBlog\AppBlog.Domain\bin\Debug\net8.0\AppBlog.Domain.runtimeconfig.json
+C:\DEV\AppBlog\AppBlog.Domain\bin\Debug\net8.0\AppBlog.Domain.dll
+C:\DEV\AppBlog\AppBlog.Domain\bin\Debug\net8.0\AppBlog.Domain.pdb
+C:\DEV\AppBlog\AppBlog.Domain\obj\Debug\net8.0\AppBlog.Domain.csproj.AssemblyReference.cache
+C:\DEV\AppBlog\AppBlog.Domain\obj\Debug\net8.0\AppBlog.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\DEV\AppBlog\AppBlog.Domain\obj\Debug\net8.0\AppBlog.Domain.AssemblyInfoInputs.cache
+C:\DEV\AppBlog\AppBlog.Domain\obj\Debug\net8.0\AppBlog.Domain.AssemblyInfo.cs
+C:\DEV\AppBlog\AppBlog.Domain\obj\Debug\net8.0\AppBlog.Domain.csproj.CoreCompileInputs.cache
+C:\DEV\AppBlog\AppBlog.Domain\obj\Debug\net8.0\AppBlog.Domain.dll
+C:\DEV\AppBlog\AppBlog.Domain\obj\Debug\net8.0\refint\AppBlog.Domain.dll
+C:\DEV\AppBlog\AppBlog.Domain\obj\Debug\net8.0\AppBlog.Domain.pdb
+C:\DEV\AppBlog\AppBlog.Domain\obj\Debug\net8.0\AppBlog.Domain.genruntimeconfig.cache
+C:\DEV\AppBlog\AppBlog.Domain\obj\Debug\net8.0\ref\AppBlog.Domain.dll
