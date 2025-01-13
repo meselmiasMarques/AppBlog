@@ -27,4 +27,16 @@ public class UserService : IUserService
             throw;
         }
     }
+
+    public async Task AddUser(User user)
+    {
+        try
+        {
+           await _httpClient.PostAsJsonAsync("v1/user", user);
+        }
+        catch (Exception e)
+        {
+           _logger.LogError("Erro ao gravar Usuario");
+        }
+    }
 }

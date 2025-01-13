@@ -3,9 +3,13 @@ using AppBlog.Web.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
+//builder.Services.AddScoped<IUserService, UserService>();
+
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
+
+    
 
 var baseUrl = "http://localhost:5135";
 
@@ -13,13 +17,11 @@ builder.Services.AddScoped(p => new HttpClient
 {
     BaseAddress = new Uri(baseUrl)
 });
+builder.Services.AddScoped<ILogger, Logger<UserService>>();
 
-
+builder.Services.AddScoped<IUserService, UserService>();
 
 var app = builder.Build();
-
-
-//builder.Services.AddScoped<IUserService, UserService>();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

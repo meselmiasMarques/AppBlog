@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "bRkM4notV1FoffShdQaPpivZr6TYSLRhp4TXUara9ZA=",
+  "Hash": "MYarrKjpwRjU9/AXkOxme1b8wxaSmXeDLXClbgpQpkI=",
   "Source": "AppBlog.Web",
   "BasePath": "_content/AppBlog.Web",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\DEV\\AppBlog\\AppBlog.Api\\AppBlog.Api.csproj",
+      "Identity": "C:\\dev\\AppBlog\\AppBlog.Api\\AppBlog.Api.csproj",
       "Version": 2,
       "Source": "AppBlog.Api",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -22,17 +22,17 @@
     {
       "Name": "AppBlog.Web\\wwwroot",
       "Source": "AppBlog.Web",
-      "ContentRoot": "C:\\DEV\\AppBlog\\AppBlog.Web\\wwwroot\\",
+      "ContentRoot": "C:\\dev\\AppBlog\\AppBlog.Web\\wwwroot\\",
       "BasePath": "_content/AppBlog.Web",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\DEV\\AppBlog\\AppBlog.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\AppBlog.Web.styles.css",
+      "Identity": "C:\\dev\\AppBlog\\AppBlog.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\AppBlog.Web.styles.css",
       "SourceId": "AppBlog.Web",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\DEV\\AppBlog\\AppBlog.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\dev\\AppBlog\\AppBlog.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/AppBlog.Web",
       "RelativePath": "AppBlog.Web.styles.css",
       "AssetKind": "All",
@@ -45,13 +45,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\DEV\\AppBlog\\AppBlog.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\AppBlog.Web.styles.css"
+      "OriginalItemSpec": "C:\\dev\\AppBlog\\AppBlog.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\AppBlog.Web.styles.css"
     },
     {
-      "Identity": "C:\\DEV\\AppBlog\\AppBlog.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AppBlog.Web.bundle.scp.css",
+      "Identity": "C:\\dev\\AppBlog\\AppBlog.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AppBlog.Web.bundle.scp.css",
       "SourceId": "AppBlog.Web",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\DEV\\AppBlog\\AppBlog.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\dev\\AppBlog\\AppBlog.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/AppBlog.Web",
       "RelativePath": "AppBlog.Web.bundle.scp.css",
       "AssetKind": "All",
@@ -64,13 +64,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\DEV\\AppBlog\\AppBlog.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AppBlog.Web.bundle.scp.css"
+      "OriginalItemSpec": "C:\\dev\\AppBlog\\AppBlog.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AppBlog.Web.bundle.scp.css"
     },
     {
-      "Identity": "C:\\DEV\\AppBlog\\AppBlog.Web\\wwwroot\\app.css",
+      "Identity": "C:\\dev\\AppBlog\\AppBlog.Web\\wwwroot\\app.css",
       "SourceId": "AppBlog.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\DEV\\AppBlog\\AppBlog.Web\\wwwroot\\",
+      "ContentRoot": "C:\\dev\\AppBlog\\AppBlog.Web\\wwwroot\\",
       "BasePath": "_content/AppBlog.Web",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -86,10 +86,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\DEV\\AppBlog\\AppBlog.Web\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\dev\\AppBlog\\AppBlog.Web\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "AppBlog.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\DEV\\AppBlog\\AppBlog.Web\\wwwroot\\",
+      "ContentRoot": "C:\\dev\\AppBlog\\AppBlog.Web\\wwwroot\\",
       "BasePath": "_content/AppBlog.Web",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -105,10 +105,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\DEV\\AppBlog\\AppBlog.Web\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\dev\\AppBlog\\AppBlog.Web\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "AppBlog.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\DEV\\AppBlog\\AppBlog.Web\\wwwroot\\",
+      "ContentRoot": "C:\\dev\\AppBlog\\AppBlog.Web\\wwwroot\\",
       "BasePath": "_content/AppBlog.Web",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -124,10 +124,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\DEV\\AppBlog\\AppBlog.Web\\wwwroot\\favicon.png",
+      "Identity": "C:\\dev\\AppBlog\\AppBlog.Web\\wwwroot\\favicon.png",
       "SourceId": "AppBlog.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\DEV\\AppBlog\\AppBlog.Web\\wwwroot\\",
+      "ContentRoot": "C:\\dev\\AppBlog\\AppBlog.Web\\wwwroot\\",
       "BasePath": "_content/AppBlog.Web",
       "RelativePath": "favicon.png",
       "AssetKind": "All",

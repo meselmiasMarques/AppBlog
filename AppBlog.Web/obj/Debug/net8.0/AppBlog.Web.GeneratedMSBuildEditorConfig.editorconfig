@@ -9,43 +9,47 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AppBlog.Web
 build_property.RootNamespace = AppBlog.Web
-build_property.ProjectDir = C:\DEV\AppBlog\AppBlog.Web\
+build_property.ProjectDir = C:\dev\AppBlog\AppBlog.Web\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\DEV\AppBlog\AppBlog.Web
+build_property.MSBuildProjectDirectory = C:\dev\AppBlog\AppBlog.Web
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/DEV/AppBlog/AppBlog.Web/Components/App.razor]
+[C:/dev/AppBlog/AppBlog.Web/Components/App.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/AppBlog/AppBlog.Web/Components/Pages/Error.razor]
+[C:/dev/AppBlog/AppBlog.Web/Components/Pages/CreateUsuario.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDcmVhdGVVc3VhcmlvLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/dev/AppBlog/AppBlog.Web/Components/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/AppBlog/AppBlog.Web/Components/Pages/Home.razor]
+[C:/dev/AppBlog/AppBlog.Web/Components/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/AppBlog/AppBlog.Web/Components/Pages/User.razor]
+[C:/dev/AppBlog/AppBlog.Web/Components/Pages/User.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xVc2VyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/AppBlog/AppBlog.Web/Components/Routes.razor]
+[C:/dev/AppBlog/AppBlog.Web/Components/Routes.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/AppBlog/AppBlog.Web/Components/_Imports.razor]
+[C:/dev/AppBlog/AppBlog.Web/Components/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/DEV/AppBlog/AppBlog.Web/Components/Layout/MainLayout.razor]
+[C:/dev/AppBlog/AppBlog.Web/Components/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-3hes4kbr10
 
-[C:/DEV/AppBlog/AppBlog.Web/Components/Layout/NavMenu.razor]
+[C:/dev/AppBlog/AppBlog.Web/Components/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-z3j0wk511j

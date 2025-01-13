@@ -862,7 +862,10 @@
           "Microsoft.EntityFrameworkCore.Sqlite": "9.0.0"
         },
         "runtime": {
-          "AppBlog.Domain.dll": {}
+          "AppBlog.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

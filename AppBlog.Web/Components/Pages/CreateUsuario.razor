@@ -1,0 +1,56 @@
+﻿@page "/CreateUser"
+
+
+
+
+
+    <div class="row justify-content-center">
+        <form class="form-control">
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" class="form-control" id="nome" placeholder="Digite seu nome" @bind-value="Nome">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Digite seu email" @bind-value="Email">
+            </div>
+            <div class="form-group">
+                <label for="senha">Senha:</label>
+                <input type="password" class="form-control" id="senha" placeholder="Digite sua senha" @bind-value="Senha">
+            </div>
+            <div class="form-group">
+                <label for="role">Role:</label>
+                <select class="form-control" id="role" @bind="Role">
+                    <option value="user">Usuário</option>
+                    <option value="admin">Administrador</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Cadastrar</button>
+        </form>
+    </div>
+
+
+
+@code {
+    public string Nome { get; set; }
+    public string Email { get; set; }
+    public string Senha { get; set; }
+    public string Role { get; set; }
+
+    
+
+    private async Task HandleSubmit()
+    {
+        var model = new Entities.Domain.User(4, Nome, Email, Senha, Role);
+
+        // Lógica para cadastrar o usuário
+        // Exemplo: Chamar um serviço para salvar os dados no banco de dados
+        await _userService.AddUser(model);
+
+        // Redirecionar para outra página após o cadastro
+        
+    }
+
+    [Inject]
+    private IUserService _userService { get; set; }
+}

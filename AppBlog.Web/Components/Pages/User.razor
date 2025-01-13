@@ -1,6 +1,12 @@
-﻿@page "/users"
+﻿@page "/user"
 @using Microsoft.AspNetCore.Server.Kestrel.Core
 @inject IUserService userService;
+
+
+<div class="row-cols-xxl-6">
+    <CreateUsuario></CreateUsuario>
+</div>
+
 
 @if (Users == null)
 {
@@ -9,22 +15,35 @@
 else
 {
     <h3 class="mb-5">Users</h3>
+
     
     @if (Users.Count() > 0)
     {
-        <div class="row mt-3">
+        <table class="table">
+            <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Email</th>
+                <th>Ações</th>
+            </tr>
+            </thead>
+            <tbody>
             @foreach (var user in Users)
             {
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="..." alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">@user.Name</h5>
-                        <p class="card-text"></p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
+                <tr>
+                    <td>@user.Name</td>
+                    <td>@user.Email</td>
+                    <td>
+                            <button class="btn btn-primary" >Editar</button>
+                        <button class="btn btn-danger">Excluir</button>
+                    </td>
+                </tr>
             }
-        </div>
+            </tbody>
+        </table>
+
+
+
     }
 }
 
@@ -36,5 +55,8 @@ else
     {
         Users = await userService.GetUsers();
     }
+
+
+   
 
 }
